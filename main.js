@@ -8,7 +8,6 @@ function telephoneCheck(str) {
   for (let regexes of regex) {
     str = str.replace(regexes, "")
   }
-  //Commenting On code
     console.log(str);
   if (str === "") {
     return true;
